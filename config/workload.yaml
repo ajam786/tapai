@@ -9,13 +9,13 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/ajam786/tapai.git
+      url: https://github.com/ajam786/sc2-prod-tapai.git
       ref:
         branch: test
   build:
     env:
     - name: BP_JVM_VERSION
-      value: "17"
+      value: "19"
   serviceClaims:
   - name: openai
     ref:
